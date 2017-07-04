@@ -1,0 +1,176 @@
+.nyroModalBg {
+	position: fixed;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: #eaeaea;
+	opacity: 1!important;
+}
+.nmReposition {
+	position: absolute;
+}
+.nyroModalCloseButton {
+	top: 30px!important;
+	right: -31px;
+	width: 30px;
+	height: 30px;
+	text-decoration: none;
+        color: #808285;
+        font-size: 30px;
+        font-family: 'HelveticaNeueLTStdLt6';
+	
+}
+.nyroModalTitle {
+	top: -26px;
+	left: 0;
+	margin: 0;
+    font-size: 1.1em;
+	color: #ddd;
+}
+.nyroModalCont {
+	position: absolute;
+	/*border: 4px solid #777;*/
+	margin: 25px;
+	/*background: #fff;*/
+}
+.nyroModalCont iframe {
+	height: 400px;
+}
+.nyroModalError {
+	border: 4px solid red;
+	color: red;
+	
+}
+.nyroModalError div {
+	min-width: 0;
+	min-height: 0;
+	padding: 10px;
+}
+.nyroModalLink, .nyroModalDom, .nyroModalForm, .nyroModalFormFile {
+	position: relative;
+	padding: 10px;
+	
+	
+}
+.nyroModalImage, .nyroModalSwf, .nyroModalIframe, .nyroModalIframeForm {
+	position: relative;
+	overflow: hidden;
+}
+.nyroModalImage img {
+    vertical-align: top;
+}
+.nyroModalHidden {
+	left: -9999em;
+	top: -9999em;
+}
+.nyroModalLoad {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	
+	padding: 0;
+}
+.nyroModalPrev, .nyroModalNext {
+	outline: none;
+	position: absolute;
+	top: 0;
+	height: 60%;
+	width: 150px;
+	min-height: 50px;
+	max-height: 300px;
+	cursor: pointer;
+	text-indent: -9999em;
+	background: transparent url('data:image/gif;base64,AAAA') left 20% no-repeat;
+}
+.nyroModalImage .nyroModalPrev, .nyroModalImage .nyroModalNext {
+	height: 100%;
+	width: 40%;
+	max-height: none;
+}
+.nyroModalPrev {
+	left: 0;
+}
+.nyroModalPrev:hover {
+	background-image: url(../img/prev.gif);
+}
+.nyroModalNext {
+	right: 0;
+	background-position: right 20%;
+}
+.nyroModalNext:hover {
+	background-position: right 20%;
+	background-image: url(../img/next.gif);
+}
+
+
+#popup_instruc{
+  background: #eaeaea;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999999;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+/* Make the iframe keep an aspect ratio, and
+position it in the middle of its parent wrapper*/
+
+#popup_instruc iframe {
+  width: 100vw;
+  height: 56.25vw; /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
+  min-height: 100vh;
+  min-width: 177.77vh; /* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+ .close{
+    z-index: 99999999999;
+    position: absolute;
+    color: #fff;
+    background: #000;
+    font-size: 20px;
+    font-family: 'HelveticaNeueLTStdLt6';
+    right: 80px;
+    top:30px;    
+    text-decoration: none;
+    display: none;
+    padding: 5px;
+}
+
+.error{
+  display: none;
+  text-align: center;
+}
+
+.cont_error{
+    
+    
+    text-align: center;
+    
+}
+.cont_error h2{
+  color: #f09200;
+  font-size: 28px;
+}
+
+.cont_error a.btn_cerrar{
+  
+  width: 147px;
+  display: block;
+  height: 30px;
+  padding-top: 10px;
+  text-decoration: none;
+  background: #00ada8;
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 20px;
+  
+  
+}

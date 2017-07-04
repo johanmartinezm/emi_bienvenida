@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20-may-2016, 17:14:10
+    Author     : Johan Martinez
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+
+.cssload-loading {
+	text-align:center;
+	margin: 156px auto;
+	color: rgb(0,0,0);
+	font-size: 6em;
+	font-family: "Montserrat", sans-serif;
+	animation: cssload-breathe 15.4s ease infinite;
+		
+}
+
+.animated_text{
+        
+        font-size: 24px;
+        font-family: 'HelveticaNeueLTStdLt6';
+        animation: cssload-breathe 1.4s ease normal;
+    }
+
+@keyframes cssload-breathe {
+	0% {
+		
+                color: transparent;
+
+	}
+	30% {
+		color: transparent;
+	}
+	50% {
+		
+	}
+	60% {
+		color: transparent;
+	}
+	100% {
+		color: #f09200;
+	}
+}
+

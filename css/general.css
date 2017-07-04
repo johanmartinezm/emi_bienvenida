@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body{
+  margin:0px;
+  padding:0px;	
+  
+}
+
+.full-page{
+    width: 100% !important;
+}
+
+
+h1,p,h2,ul,li{
+	margin:0px;
+	padding:0px;
+}
+
+h1,h2,h3,h4,h5{
+  font-weight: normal;
+}
+.border{
+	border:1px #F00 solid;
+}
+
+.left{
+	float:left;
+}
+
+.right{
+	float:right;
+}
+
+img{
+	border:0px;
+}
+
+h3{
+	margin:0px;
+}
+
+.font9{font-size:9px;}
+.font12{font-size:12px;}
+.font13{font-size:13px;}
+.font14{font-size:14px;}
+.font16{font-size:16px;}
+.font18{font-size:18px;}
+.font28{font-size:28px;}
+.font40{font-size:40px;}
+.font24{font-size:24px;}
+.font22{font-size:22px;}
+.font26{font-size:26px;}
+.font60{font-size:60px;}
+.font20{font-size:20px;}
+
+.semibold{
+	font-weight:600;
+}
+
+
+.bold{
+	font-weight:bold;
+}
+
+
+.text_center{
+    text-align: center;
+}
+
+.justify{
+	text-align:justify;
+}
+
+.w100{
+    width: 100%;
+}
+
+.mtop10{
+    margin-top: 10px;
+}
+
+/*------ Clear Fix ------*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+/* Hides from IE-mac \*/
+
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
+
+
+
+@font-face {
+    font-family: 'HelveticaNeueLTStdLt6';
+    src: url('../fonts/helvetica/HelveticaNeueLTStdLt6.eot');
+    src: url('../fonts/helvetica/HelveticaNeueLTStdLt6.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helvetica/HelveticaNeueLTStdLt6.woff2') format('woff2'),
+         url('../fonts/helvetica/HelveticaNeueLTStdLt6.woff') format('woff'),
+         url('../fonts/helvetica/HelveticaNeueLTStdLt6.ttf') format('truetype'),
+         url('../fonts/helvetica/HelveticaNeueLTStdLt6.svg#HelveticaNeueLTStdLt6') format('svg');
+}
+

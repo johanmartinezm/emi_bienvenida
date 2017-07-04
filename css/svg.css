@@ -1,0 +1,89 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12-may-2016, 12:45:28
+    Author     : johan
+*/
+
+#Layer_1{
+    width: 100%;
+    height: auto;
+}
+
+#casa_svg{
+    width: 100%;
+    height: auto;
+}
+
+
+
+@keyframes nubarrones {
+  from  {
+    transform:translateX(0px);
+  }
+
+  to {
+  transform:translateX(50px);
+  }
+}
+
+@keyframes nubesitas {
+  from  {
+    transform:translateX(0px);
+  }
+
+  to {
+  transform:translateX(30px);
+  }
+}
+
+@keyframes nubesitas_izq {
+  from  {
+    transform:translateX(0px);
+  }
+
+  to {
+  transform:translateX(-30px);
+  }
+}
+
+.nubes {
+    animation: nubarrones 5s linear infinite alternate;
+}
+
+.nubes_peq {
+    animation: nubesitas 4s linear infinite alternate;
+    
+}
+
+.nubes_peq_izq {
+    animation: nubesitas_izq 4s linear infinite alternate;
+    
+}
+
+
+/*MOVIMIENTO Ambulancia*/
+
+@keyframes luna {
+  from  {
+    transform:translateX(-350px);
+  
+  }
+  to{
+      transform:translateX(280%);
+  }
+  
+
+}
+
+.moviluna {
+    
+    animation-name: luna;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: forwards;
+}

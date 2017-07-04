@@ -1,0 +1,1677 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11-may-2016, 15:50:41
+    Author     : Johan Martinez
+    Email      : yesidmar11@hotmail.com
+*/
+
+
+html,body{
+    height: 100%;
+    
+    
+}
+
+body{
+    
+}
+
+@media only screen and (max-width: 767px) {
+    .banner_home{
+        background-color: #eaeaea;
+        width: 100%;
+        height: 426px;
+        float: left;
+    }
+    
+    /*HOME*/
+    .texto{
+        width: 100%;
+        height: 426px;
+        background: url(../images/banner_mb.png) no-repeat center;
+        margin-top: 24px;
+        text-align: center;
+    }
+    
+    .titulo_banner{
+        font-family: 'HelveticaNeueLTStdLt6';
+        font-size: 22px;
+        color: #808285;
+        width: 100%;
+        text-align: center;
+        margin-top: 60px;
+    }
+    
+    .video_link{
+        background: url(../images/video_mb.png);
+        width: 38px;
+        height: 38px;
+        display: inline-block;
+        font-size: 0;
+    }
+    .cont_animacion{
+       
+        display: none;
+        
+    }
+    .cont_nubes{
+        display: none;
+    }
+    .cont_casa{
+        display: none;
+    }
+    .cont_ambu{        
+        display: none;
+    }
+    
+    .img_respon{
+        display: none;
+    }
+    .ver_video{
+        background: url(../images/back_vervidero.png) center no-repeat;
+        font-size: 14px;
+    }
+    
+    /*HOME*/
+    
+    /*Servicio emi*/
+    .servicio_emi{
+        width: 100%;
+        float: left;
+    }
+    
+    .linea_naranja{
+        display: none;
+    }
+    .tit_servicio{
+        text-align: center;
+        font-size: 18px;
+        color: #808285;
+        font-family: 'HelveticaNeueLTStdLt6';
+        font-weight: bold;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    
+    .cont_servicios{
+        width: 276px;
+        margin: 0 auto;
+        padding-bottom: 100px;
+        padding-left: 24px;
+    }
+    
+    .info_numero{
+        width: 234px;
+        margin: 0 auto;
+        float: left;
+    }
+    
+    .info_numero .info_cont{
+        
+    }
+    
+    
+    
+    .info_numero .info_cont img{
+        width: 151px;
+        transform: scale(0, 0);
+        
+    }
+    
+    .info_numero .info_cont img.animated{
+        transition: all .25s;
+        transform: scale(1, 1);
+        transition: transform 0.3s ease-out;
+    }
+    
+    .flecha_1{
+        display: none;
+    }
+    
+    .info_numero .info_cont p{
+        
+    }
+    
+    .titulo_1{
+        color: #f09200;
+        font-size: 22px;
+        font-family: 'HelveticaNeueLTStdLt6';
+    }
+    
+    .text_1{
+        margin-top: 20px;
+        color: #808285;
+        font-size: 16px;
+        font-family: 'HelveticaNeueLTStdLt6';
+    }
+    
+    .info_numero .num_cont{
+        width: 234px;
+        height: 146px;
+        float: left;
+        background: url(../images/back_slider_num_mb.png);
+        padding-top: 88px;
+        margin-top: 20px;
+    }
+    
+    .num_cont img{
+        float: left;
+        margin-top: 10px;
+        margin-right: 5px;
+        margin-left: 15px;
+        width: 30px;
+    }
+    
+    #slider{
+        width: 120px;
+        height: 53px!important;
+        overflow: hidden;
+        float: left;
+        
+    }
+    
+    #slider div p{
+        line-height: 30px;
+        float: left;
+        color: #808285;
+        font-family: 'HelveticaNeueLTStdLt6';
+        font-size: 21px;
+        font-weight: bold;
+    }
+    
+    #slider div p span{
+        font-family: 'HelveticaNeueLTStdLt6';
+        color: #f69321;
+        font-size: 21px;
+        text-transform: uppercase;
+    }
+    
+    
+    
+    .nextBtn{
+        background: url(../images/slider_flechas.png) right ;
+        width: 12px;
+        height: 25px;
+        display: block;
+        font-size: 0px;
+        margin-top: 12px;
+        float: left;
+        margin-left: 15px;
+    }
+    
+    .prevBtn{
+        background: url(../images/slider_flechas.png) left ;
+        width: 12px;
+        height: 25px;
+        display: block;
+        font-size: 0px;
+        float: left;
+        margin-left: 15px;
+        margin-top: 12px;
+    }
+    
+    .mensaje_slider{
+        font-size: 13px;
+        width: 100%;
+        float: left;
+        color: #808285;
+        font-family: 'HelveticaNeueLTStdLt6';
+        text-align: center;
+        margin-top: 25px;
+    }
+    
+    .info_clasifica{
+        width: 234px;
+        margin: 0 auto;
+        margin-top: 30px;
+        float: left;
+    }
+    
+    .linea_verde{
+        display: none;       
+    }
+    
+    #svg_line_verde{
+        width: 200px;
+    }
+    
+    .cont_clasifica{
+        width: 240px;
+        margin: 0 auto;
+        
+    }
+    
+    .cont_clasifica  img{
+        width: 146px;
+        transform: scale(0, 0);
+        
+    }
+    
+    .cont_clasifica img.animated{
+        transition: all .25s;
+        transform: scale(1, 1);
+        transition: transform 0.3s ease-out;
+    }
+    
+    
+    .text_clasif{        
+        margin-top: 30px;        
+    }
+    
+    .titu_2{
+        color: #96be16;
+        font-size: 22px;
+        font-family: 'HelveticaNeueLTStdLt6';
+    }
+    
+    .text_2{
+        margin-top: 15px;
+        color: #808285;
+        font-size: 16px;
+        font-family: 'HelveticaNeueLTStdLt6';
+    }
+    
+    .tipos_servicio{
+        float: left;
+        width: 100%;
+    }
+    
+    .flechas_serv{
+        display: none;
+        
+    }
+    
+    .flecha_2{
+        margin-left: 81px;
+    }
+    
+    .flecha_3{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    
+    .flecha_4{
+        margin-left: 112px;
+        margin-top: 10px;
+    }
+    
+    .cont_tipos{
+        width: 240px;
+        
+        float: left;
+    }
+    
+    .tipo{
+        margin-top: 30px;
+        float: left;
+        text-align: left;
+        color: #808285;
+        font-family: 'HelveticaNeueLTStdLt6';
+    }
+    
+    .tipo img{
+        width: 55px;
+    }
+    
+    .tipo:first-child{
+        
+    }
+    
+    .tipo:nth-child(2){
+        
+    }
+    
+    .tipo:nth-child(3){
+        
+    }
+    
+    .tipo .title_tipo{
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    
+    .tipo .text_tipo{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    
+    /*Servicio emi*/
+    
+    /*INFOGRAFIA*/
+    .infografia{
+        background-color: #f69321;
+        width: 100%;
+        height: 651px;
+        float: left;
+    }
+    
+    .infografia h2{
+        display: none;
+    }
+    
+    .cont_infogra{
+        background: url(../images/banner_info_mb.png) no-repeat center 460px;
+        width: 320px;
+        height: 651px;
+        margin:  0 auto;
+    }
+    
+    .items_super{
+        display: none;
+            
+    }
+    .items_infer{
+        display: none;
+            
+    }
+    
+    .item_serv{
+        
+        float: left;
+        font-family: 'HelveticaNeueLTStdLt6';
+        color: #fff;
+    }
+    
+    .item_serv img.icono{
+        width: 62px;
+    }
+    
+    
+    .item_serv p.frase{
+        width: 173px;
+        margin: 0 auto;
+        margin-top: 10px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .item_serv p.frase span{
+        font-size: 26px;
+        font-weight: bold;
+    }
+    
+    .descrip_serv{
+        background: #fff;
+        border-radius: 10px;
+        width: 185px;
+        margin: 0 auto;
+        
+        font-size: 13px;
+        color: #808285;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .descrip_serv span.bold_osc{
+        font-weight: bold;
+    }
+    
+    .descrip_serv span.naranja{
+        font-weight: bold;
+        color: #f69321;
+    }
+    
+    
+    .slider_info_mb{
+        margin-top: 40px;
+        
+    }
+    
+    #slider_1{
+        width: 210px;
+        height: 360px!important;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    
+    #slider_1 div{
+        text-align: center;
+    }
+    
+    .control{
+        text-align: center;
+    }
+    
+    .num_control{
+        background: url(../images/slider_items.png) left;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+        font-size: 0px;
+    }
+    
+    .num_control.current{
+        background: url(../images/slider_items.png) right;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+        font-size: 0px;
+    }
+    
+    .cont_tooltip{
+        display: none;
+    }
+    
+    /*INFOGRAFIA*/
+    
+    /*FOOTER*/
+    footer{
+        background-color: #9b9c9e;
+        width: 100%;
+        height: 273px;
+        color: #fff;
+        font-family: 'HelveticaNeueLTStdLt6';
+    }
+    
+    .cont_footer{
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 100px;
+    }
+    .logo_vigilado_izq{
+        display: none;
+    }
+    .cont_info{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .logo_footer{
+        margin: 0 auto;
+    }
+    
+    .cont_footer p{
+        float: left;
+        text-align: left;
+        display: none;
+    }
+    
+    .info_empre{
+        width: 490px;
+        margin: 0 auto;
+        font-size: 14px;
+        margin-top: 44px;        
+    }
+    
+    .logo_vig_mobile{
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    /*FOOTER*/
+    
+}
+
+@media (min-width: 768px) and (max-width:991px)  {
+    body{
+        overflow-x: hidden;
+    }
+    .banner_home{
+        background-color: #eaeaea;
+        width: 100%;
+        height: 100%;
+    }
+    
+    /*HOME*/
+    .texto{
+        width: 688px;
+        position: absolute;
+        left: 50%;
+        margin-left: -344px;
+        margin-top: 50px;
+    }
+    
+    .titulo_banner{
+        font-family: 'HelveticaNeueLTStdLt6';
+        font-size: 40px;
+        color: #808285;
+        width: 100%;
+        text-align: center;
+        margin-top: 60px;
+    }
+    
+    .video_link{
+        background: url(../images/video.png);
+        width: 71px;
+        height: 71px;
+        display: inline-block;
+        font-size: 0;
+    }
+    .cont_animacion{
+        max-width: 768px;
+        margin: 0 auto;
+        
+    }
+    .cont_nubes{
+        width: 100%;
+        float: left;
+        margin-top: 30px;
+    }
+    .cont_casa{
+        display: none;
+    }
+    .cont_ambu{        
+        width: 100%;
+        position: absolute;
+        top: 450px;
+    }
+    
+    .logo_mb{
+        display: none;
+    }
+    
+    .ver_video{
+        background: url(../images/back_vervidero.png) center no-repeat;
+        font-size: 20px;
+    }
+    /*HOME*/
+    
+    /*Servicio emi*/
+    .servicio_emi{
+        width: 100%;
+    }
+    
+    .linea_naranja{
+        margin-left: 77px;
+    }
+    .tit_servicio{
+        text-align: center;
+        font-size: 35px;
+        color: #808285;
+        font-family: 'HelveticaNeueLTStdLt6';
+        font-weight: bold;
+        margin-top: 60px;
+        margin-bottom: 55px;
+    }
+    
+    .cont_servicios{
+        width: 688px;
+        margin: 0 auto;
+        padding-bottom: 100px;
+        
+    }
+    
+    .info_numero{
+        float: left;
+        margin-top: 40px;
+    }
+    
+    .info_numero .info_cont{
+        width: 316px;
+        float: left;
+    }
+    
+    
+    .info_numero .info_cont img{
+        float: left;
+        transform: scale(0, 0);
+        
+    }
+    
+    .info_numero .info_cont img.animated{
+        transition: all .25s;
+        transform: scale(1, 1);
+        transition: transform 0.3s ease-out;
+    }
+    
+    
+    .flecha_1{
+        margin-left: 40px;
+        margin-top: 170px;
+        float: left;
+    }
+    
+    .info_numero .info_cont p{
+        width: 251px;
+        float: left;
+    }
+    
+    .titulo_1{
+        color: #f09200;
+        font-size: 24px;
+        font-family: 'HelveticaNeueLTStdLt6';
+    }
+    
+    .text_1{
+        margin-top: 20px;
+        color: #808285;
+        font-size: 18px;
+        font-family: 'HelveticaNeueLTStdLt6';
+    }
+    
+    .info_numero .num_cont{
+        width: 319px;
+        height: 185px;
+        float: left;
+        background: url(../images/back_slider_num.png);
+        padding-top: 134px;
+    }
+    
+    
+    .num_cont img{
+        float: left;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-left: 26px;
+    }
+    
+    #slider{
+        width: 150px;
+        height: 55px!important;
+        overflow: hidden;
+        float: left;
+        
+    }
+    
+    #slider div img{
+        float: left;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    
+    #slider div p{
+        line-height: 30px;
+        float: left;
+        color: #808285;
+        font-family: 'HelveticaNeueLTStdLt6';
+        font-size: 28px;
+        font-weight: bold;
+    }
+    
+    #slider div p span{
+        font-family: 'HelveticaNeueLTStdLt6';
+        color: #f69321;
+        font-size: 24px;
+        text-transform: uppercase;
+    }
+    
+    
+    
+    .nextBtn{
+        background: url(../images/slider_flechas.png) right ;
+        width: 12px;
+        height: 25px;
+        display: block;
+        font-size: 0px;
+        margin-top: 15px;
+        float: right;
+        margin-right: 35px;
+    }
+    
+    .prevBtn{
+        background: url(../images/slider_flechas.png) left ;
+        width: 12px;
+        height: 25px;
+        display: block;
+        font-size: 0px;
+        float: left;
+        margin-left: 28px;
+        margin-top: 15px;
+    }
+    
+    .mensaje_slider{
+        font-size: 13px;
+        width: 100%;
+        float: left;
+        color: #808285;
+        font-family: 'HelveticaNeueLTStdLt6';
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .info_clasifica{
+        float: left;
+        
+        margin-top: 30px;
+    }
+    
+    .linea_verde{
+        float: left;
+        margin-left: 57px;        
+    }
+    
+    #svg_line_verde{
+        width: 200px;
+    }
+    
+    .cont_clasifica{
+        float: left;
+    }
+    
+    
+    .cont_clasifica  img{
+        float: left;
+        width: 175px;
+        transform: scale(0, 0);
+        
+    }
+    
+    .cont_clasifica img.animated{
+        transition: all .25s;
+        transform: scale(1, 1);
+        transition: transform 0.3s ease-out;
+    }
+    
+    
+    .text_clasif{
+        float: left;
+        width: 224px;
+        margin-top: 62px;
+        margin-left: 10px;
+    }
+    
+    .titu_2{
+        color: #96be16;
+        font-size: 24px;
+        font-family: 'HelveticaNeueLTStdLt6';
+    }
+    
+    .text_2{
+        margin-top: 20px;
+        color: #808285;
+        font-size: 18px;
+        font-family: 'HelveticaNeueLTStdLt6';
+    }
+    
+    .tipos_servicio{
+        float: left;
+        width: 100%;
+    }
+    
+    .flechas_serv{
+        width: 688px;
+        margin: 0 auto;
+        
+    }
+    
+    .flecha_2{
+        margin-left: 81px;
+    }
+    
+    .flecha_3{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    
+    .flecha_4{
+        margin-left: 112px;
+        margin-top: 10px;
+    }
+    
+    .cont_tipos{
+        width: 736px;
+        
+        float: left;
+    }
+    
+    .tipo{
+        width: 194px;
+        float: left;
+        text-align: left;
+        color: #808285;
+        font-family: 'HelveticaNeueLTStdLt6';
+    }
+    
+    .tipo:first-child{
+        margin-left: 26px;
+    }
+    
+    .tipo:nth-child(2){
+        margin-left: 42px;
+    }
+    
+    .tipo:nth-child(3){
+        margin-left: 30px;
+    }
+    
+    .tipo .title_tipo{
+        font-size: 28px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    
+    .tipo .text_tipo{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    
+    /*Servicio emi*/
+    
+    /*INFOGRAFIA*/
+    .infografia{
+        background-color: #f69321;
+        width: 100%;
+        height: 1151px;
+        float: left;
+    }
+    
+    .infografia h2{
+        font-size: 18px;
+        color: #fff;
+        font-family: 'HelveticaNeueLTStdLt6';
+        text-align: center;
+        margin-top: 90px;
+        margin-bottom: 90px;
+    }
+    
+    .cont_infogra{
+        background: url(../images/banner_info_tablet.png) no-repeat center 262px;
+        width: 688px;
+        height: 949px;
+        margin:  0 auto;
+    }
+    
+    .items_super{
+        background: url(../images/back_info_super_tb.png)  35px 38px no-repeat;
+        height: 262px;
+        width: 688px;
+        margin: 0 auto;
+            
+    }
+    .items_infer{
+        background: url(../images/back_info_infer_tb.png) 5px 23px no-repeat;
+        height: 262px;
+        width: 688px;
+        margin: 0 auto;
+        margin-top: 313px;
+            
+    }
+    
+    .item_serv{
+        width: 199px;
+        float: left;
+        font-family: 'HelveticaNeueLTStdLt6';
+        color: #fff;
+    }
+    
+    
+    .item_serv p{
+        margin-top: 10px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .item_serv p span{
+        font-size: 32px;
+        font-weight: bold;
+    }
+    
+    .items_super .item_serv:first-child{
+        margin-top: 62px;
+        
+    }
+    
+    .items_super .item_serv:nth-child(2){
+        margin-left: 67px;
+        width: 144px;
+    }
+    
+    .items_super .item_serv:nth-child(3){
+        margin-top: 41px;
+        margin-left: 99px;
+        width: 178px;
+    }
+    
+    .items_infer .item_serv:first-child{
+        width: 188px;
+    }
+    
+    .items_infer .item_serv:nth-child(2){
+        margin-top: 56px;
+        margin-left: 30px;
+        width: 160px;
+    }
+    
+    .items_infer .item_serv:nth-child(3){
+        margin-top: 49px;
+        margin-left: 27px;
+        width: 141px;
+    }
+    
+    .items_infer .item_serv:nth-child(4){
+        margin-left: 22px;
+        width: 120px;
+    }
+    
+    .slider_info_mb{
+        display: none;        
+    }
+    
+    
+    
+    .tool-tip-1{
+        position: absolute;
+        margin-top: -50px;
+        margin-left: -20px;
+        font-family: 'HelveticaNeueLTStdLt6';
+    }
+    
+    .tool-tip-1 img{
+        margin-left: 47px;
+    }
+    
+    .tool-tip-2{
+        position: absolute;
+        margin-top: -150px;
+        margin-left: 228px;
+        font-family: 'HelveticaNeueLTStdLt6';
+    }
+    
+    .tool-tip-2 img{
+        margin-left: 65px;
+    }
+    
+    .tool-tip-3{
+        position: absolute;
+        margin-top: -119px;
+        margin-left: 454px;
+        font-family: 'HelveticaNeueLTStdLt6';
+    }
+    
+    .tool-tip-3 img{
+        margin-left: 90px;
+    }
+    
+    .tool-tip-4{
+        position: absolute;
+        margin-top: 404px;
+        margin-left: -20px;
+        font-family: 'HelveticaNeueLTStdLt6';
+    }
+    
+    .tool-tip-4 img{
+        margin-left: 48px;
+    }
+    
+    .tool-tip-5{
+        position: absolute;
+        margin-top: 463px;
+        margin-left: 173px;
+        font-family: 'HelveticaNeueLTStdLt6';
+    }
+    
+    .tool-tip-5 img{
+        margin-left: 65px;
+    }
+    
+    .tool-tip-6{
+        position: absolute;
+        margin-top: 474px;
+        margin-left: 357px;
+        font-family: 'HelveticaNeueLTStdLt6';
+    }
+    
+    .tool-tip-6 img{
+        margin-left: 65px;
+    }
+    
+    .tool-tip-7{
+        position: absolute;
+        margin-top: 462px;
+        margin-left: 455px;
+        font-family: 'HelveticaNeueLTStdLt6';
+        
+    }
+    
+    .tool-tip-7 img{
+        margin-left: 139px;
+    }
+    
+    .tool-tip{
+        display: none;
+    }
+    
+    .descrip_serv{
+        background: #fff;
+        border-radius: 10px;
+        width: 231px;
+        margin: 0 auto;
+        font-size: 16px;
+        color: #808285;
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    
+    .descrip_serv span.bold_osc{
+        font-weight: bold;
+    }
+    
+    .descrip_serv span.naranja{
+        font-weight: bold;
+        color: #f69321;
+    }
+    /*INFOGRAFIA*/
+    
+    
+    /*FOOTER*/
+    footer{
+        background-color: #9b9c9e;
+        width: 100%;
+        height: 402px;
+        color: #fff;
+        font-family: 'HelveticaNeueLTStdLt6';
+    }
+    
+    .cont_footer{
+        width: 688px;
+        margin: 0 auto;
+        padding-top: 100px;
+    }
+    .logo_vigilado_izq{
+        
+    }
+    .cont_info{
+        width: 490px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .logo_footer{
+        margin: 0 auto;
+    }
+    
+    .cont_footer p{
+        float: left;
+        text-align: left;
+    }
+    
+    .info_empre{
+        width: 490px;
+        margin: 0 auto;
+        font-size: 14px;
+        margin-top: 44px;        
+    }
+    
+    .logo_vig_mobile{
+        display: none;
+    }
+    /*FOOTER*/
+}
+
+@media (min-width:992px)  {
+    .banner_home{
+        background-color: #eaeaea;
+        width: 100%;
+        height: 100%;
+    }
+    
+    /*HOME*/
+    .texto{
+        width: 960px;
+        position: absolute;
+        left: 50%;
+        margin-left: -480px;
+        margin-top: 50px;
+    }
+    
+    .titulo_banner{
+        font-family: 'HelveticaNeueLTStdLt6';
+        font-size: 40px;
+        color: #808285;
+        width: 100%;
+        text-align: center;
+        margin-top: 60px;
+    }
+    
+    .video_link{
+        background: url(../images/video.png);
+        width: 71px;
+        height: 71px;
+        display: inline-block;
+        font-size: 0;
+    }
+    .cont_animacion{
+        max-width: 990px;
+        margin: 0 auto;
+        
+    }
+    .cont_nubes{
+        width: 100%;
+        float: left;
+        margin-top: 30px;
+    }
+    
+    .cont_casa_tb{
+        display: none;
+    }
+    
+    .cont_ambu{        
+        width: 100%;
+        position: absolute;
+        top: 470px;
+    }
+    
+    .logo_mb{
+        display: none;
+    }
+    
+    .ver_video{
+        background: url(../images/back_vervidero.png) center no-repeat;
+        font-size: 20px;
+    }
+    /*HOME*/
+    
+    /*Servicio emi*/
+    .servicio_emi{
+        width: 100%;
+    }
+    
+    .linea_naranja{
+        margin-left: 188px;
+    }
+    .tit_servicio{
+        text-align: center;
+        font-size: 35px;
+        color: #808285;
+        font-family: 'HelveticaNeueLTStdLt6';
+        
+        margin-top: 60px;
+        margin-bottom: 55px;
+    }
+    
+    .tit_servicio i{
+        font-weight: bold;
+    }
+    
+    .cont_servicios{
+        width: 960px;
+        margin: 0 auto;
+        padding-bottom: 100px;
+        
+    }
+    
+    .info_numero{
+        float: left;
+        margin-top: 40px;
+    }
+    
+    .info_numero .info_cont{
+        width: 316px;
+        margin-left: 105px;
+        
+        float: left;
+    }
+    
+    .info_numero .info_cont img{
+        float: left;
+        transform: scale(0, 0);
+        
+    }
+    
+    .info_numero .info_cont img.animated{
+        transition: all .25s;
+        transform: scale(1, 1);
+        transition: transform 0.3s ease-out;
+    }
+    
+    .flecha_1{
+        margin-left: 40px;
+        margin-top: 170px;
+        float: left;
+    }
+    
+    .info_numero .info_cont p{
+        width: 251px;
+        float: left;
+    }
+    
+    
+    .titulo_1{
+        color: #f09200;
+        font-size: 24px;
+        font-family: 'HelveticaNeueLTStdLt6';
+        
+    }
+    
+    .text_1{
+        margin-top: 20px;
+        color: #808285;
+        font-size: 18px;
+        font-family: 'HelveticaNeueLTStdLt6';
+    }
+    
+    .info_numero .num_cont{
+        width: 319px;
+        height: 185px;
+        float: left;
+        background: url(../images/back_slider_num.png);
+        padding-top: 134px;
+    }
+    
+    .num_cont img{
+        float: left;
+        margin-top: 8px;
+        margin-right: 10px;
+        margin-left: 26px;
+    }
+    
+    #slider{
+        width: 150px;
+        height: 55px!important;
+        overflow: hidden;
+        float: left;
+        
+    }
+    
+    #slider div img{
+        float: left;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    
+    #slider div p{
+        line-height: 30px;
+        float: left;
+        color: #808285;
+        font-family: 'HelveticaNeueLTStdLt6';
+        font-size: 28px;
+        font-weight: bold;
+    }
+    
+    #slider div p span{
+        font-family: 'HelveticaNeueLTStdLt6';
+        color: #f69321;
+        font-size: 24px;
+        text-transform: uppercase;
+    }
+    
+    
+    
+    .nextBtn{
+        background: url(../images/slider_flechas.png) right ;
+        width: 12px;
+        height: 25px;
+        display: block;
+        font-size: 0px;
+        margin-top: 15px;
+        float: right;
+        margin-right: 35px;
+    }
+    
+    .prevBtn{
+        background: url(../images/slider_flechas.png) left ;
+        width: 12px;
+        height: 25px;
+        display: block;
+        font-size: 0px;
+        float: left;
+        margin-left: 28px;
+        margin-top: 15px;
+    }
+    
+    .mensaje_slider{
+        font-size: 13px;
+        width: 100%;
+        float: left;
+        color: #808285;
+        font-family: 'HelveticaNeueLTStdLt6';
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .info_clasifica{
+        float: left;
+        margin-left: 105px;
+        margin-top: 30px;
+    }
+    
+    .linea_verde{
+        float: left;
+        margin-left: 82px;
+        
+    }
+    
+    .cont_clasifica{
+        float: left;
+    }
+    
+    
+    .cont_clasifica  img{
+        float: left;
+        transform: scale(0, 0);
+        margin-left: 20px;
+    }
+    
+    .cont_clasifica img.animated{
+        transition: all .25s;
+        transform: scale(1, 1);
+        transition: transform 0.3s ease-out;
+    }
+    
+    .text_clasif{
+        float: left;
+        width: 281px;
+        margin-top: 62px;
+        margin-left: 20px;
+    }
+    
+    .titu_2{
+        color: #96be16;
+        font-size: 24px;
+        font-family: 'HelveticaNeueLTStdLt6';
+    }
+    
+    .text_2{
+        margin-top: 20px;
+        color: #808285;
+        font-size: 18px;
+        font-family: 'HelveticaNeueLTStdLt6';
+    }
+    
+    .tipos_servicio{
+        float: left;
+        width: 100%;
+    }
+    
+    .flechas_serv{
+        width: 736px;
+        margin: 0 auto;
+        
+    }
+    
+    .flecha_2{
+        margin-left: 97px;
+    }
+    
+    .flecha_3{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    
+    .flecha_4{
+        margin-left: 95px;
+        margin-top: 10px;
+    }
+    
+    .cont_tipos{
+        width: 736px;
+        margin-left: 105px;
+        float: left;
+    }
+    
+    .tipo{
+        width: 194px;
+        float: left;
+        text-align: left;
+        color: #808285;
+        font-family: 'HelveticaNeueLTStdLt6';
+    }
+    
+    .tipo:first-child{
+        margin-left: 26px;
+    }
+    
+    .tipo:nth-child(2){
+        margin-left: 42px;
+    }
+    
+    .tipo:nth-child(3){
+        margin-left: 30px;
+    }
+    
+    .tipo .title_tipo{
+        font-size: 28px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    
+    .tipo .text_tipo{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    
+    /*Servicio emi*/
+    
+    
+    /*INFOGRAFIA*/
+    .infografia{
+        background-color: #f69321;
+        width: 100%;
+        height: 1151px;
+        float: left;
+    }
+    
+    .infografia h2{
+        font-size: 18px;
+        color: #fff;
+        font-family: 'HelveticaNeueLTStdLt6';
+        text-align: center;
+        margin-top: 90px;
+        margin-bottom: 90px;
+    }
+    
+    .cont_infogra{
+        background: url(../images/banner_info.png) no-repeat center 262px;
+        width: 960px;
+        height: 949px;
+        margin:  0 auto;
+    }
+    
+    .items_super{
+        background: url(../images/back_info_super.png)  center 38px no-repeat;
+        height: 262px;
+        width: 960px;
+        margin: 0 auto;
+            
+    }
+    .items_infer{
+        background: url(../images/back_info_infer.png)  87px 23px no-repeat;
+        height: 262px;
+        width: 960px;
+        margin: 0 auto;
+        margin-top: 313px;
+            
+    }
+    
+    .item_serv{
+        width: 215px;
+        float: left;
+        font-family: 'HelveticaNeueLTStdLt6';
+        color: #fff;
+    }
+    
+    
+    .item_serv p{
+        margin-top: 10px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .item_serv p span{
+        font-size: 37px;
+        font-weight: bold;
+    }
+    
+    .items_super .item_serv:first-child{
+        margin-top: 62px;
+        margin-left: 118px;
+    }
+    
+    .items_super .item_serv:nth-child(2){
+        margin-left: 100px;
+    }
+    
+    .items_super .item_serv:nth-child(3){
+        margin-top: 62px;
+        margin-left: 96px;
+        width: 197px;
+    }
+    
+    .items_infer .item_serv:first-child{
+        margin-left: 56px;
+    }
+    
+    .items_infer .item_serv:nth-child(2){
+        margin-top: 70px;
+        margin-left: 50px;
+        width: 178px;
+    }
+    
+    .items_infer .item_serv:nth-child(3){
+        margin-top: 70px;
+        margin-left: 30px;
+        width: 168px;
+    }
+    
+    .items_infer .item_serv:nth-child(4){
+        margin-top: 20px;
+        margin-left: 50px;
+        width: 150px;
+    }
+    
+    .slider_info_mb{
+        display: none;        
+    }
+    
+    .tool-tip-1{
+        position: absolute;
+        margin-top: -50px;
+        margin-left: 80px;
+        font-family: 'HelveticaNeueLTStdLt6';
+    }
+    
+    .tool-tip-1 img{
+        margin-left: 65px;
+    }
+    
+    .tool-tip-2{
+        position: absolute;
+        margin-top: -150px;
+        margin-left: 395px;
+        font-family: 'HelveticaNeueLTStdLt6';
+    }
+    
+    .tool-tip-2 img{
+        margin-left: 65px;
+    }
+    
+    .tool-tip-3{
+        position: absolute;
+        margin-top: -110px;
+        margin-left: 705px;
+        font-family: 'HelveticaNeueLTStdLt6';
+    }
+    
+    .tool-tip-3 img{
+        margin-left: 65px;
+    }
+    
+    .tool-tip-4{
+        position: absolute;
+        margin-top: 404px;
+        margin-left: 20px;
+        font-family: 'HelveticaNeueLTStdLt6';
+    }
+    
+    .tool-tip-4 img{
+        margin-left: 65px;
+    }
+    
+    .tool-tip-5{
+        position: absolute;
+        margin-top: 472px;
+        margin-left: 285px;
+        font-family: 'HelveticaNeueLTStdLt6';
+    }
+    
+    .tool-tip-5 img{
+        margin-left: 65px;
+    }
+    
+    .tool-tip-6{
+        position: absolute;
+        margin-top: 490px;
+        margin-left: 485px;
+        font-family: 'HelveticaNeueLTStdLt6';
+    }
+    
+    .tool-tip-6 img{
+        margin-left: 65px;
+    }
+    
+    .tool-tip-7{
+        position: absolute;
+        margin-top: 464px;
+        margin-left: 707px;
+        font-family: 'HelveticaNeueLTStdLt6';
+        
+    }
+    
+    .tool-tip-7 img{
+        margin-left: 65px;
+    }
+    
+    .tool-tip{
+        display: none;
+    }
+    
+    .descrip_serv{
+        background: #fff;
+        border-radius: 10px;
+        width: 231px;
+        margin: 0 auto;
+        font-size: 16px;
+        color: #808285;
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    
+    .descrip_serv span.bold_osc{
+        font-weight: bold;
+    }
+    
+    .descrip_serv span.naranja{
+        font-weight: bold;
+        color: #f69321;
+    }
+    
+    /*INFOGRAFIA*/
+    
+    /*FOOTER*/
+    footer{
+        background-color: #9b9c9e;
+        width: 100%;
+        height: 333px;
+        color: #fff;
+        font-family: 'HelveticaNeueLTStdLt6';
+    }
+    
+    .cont_footer{
+        width: 960px;
+        margin: 0 auto;
+        padding-top: 105px;
+    }
+    .logo_vigilado_izq{
+        
+    }
+    
+    .logo_footer{
+        margin-left: 182px;
+        margin-right: 50px;
+        float: left;
+    }
+    
+    .cont_footer p{
+        float: left;
+    }
+    
+    .info_empre{
+        width: 490px;
+        font-size: 14px;
+        float: left;
+    }
+    
+    .logo_vig_mobile{
+        display: none;
+    }
+    /*FOOTER*/
+}
